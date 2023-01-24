@@ -1,0 +1,19 @@
+version: "3"
+services:
+  problem-solving-cpp:
+    image: gcc:latest
+    container_name: cpp
+    working_dir: /home
+    stdin_open: true
+    tty: true
+    volumes:
+      - "./c++:/home"
+
+  problem-solving-java:
+    image: openjdk:11
+    container_name: java
+    working_dir: /home
+    stdin_open: true
+    tty: true
+    volumes:
+      - "./java:/home"
