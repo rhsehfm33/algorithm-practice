@@ -86,6 +86,11 @@
         "latch": "cpp",
         "semaphore": "cpp",
         "syncstream": "cpp",
-        "filesystem": "cpp"
+        "filesystem": "cpp",
+        "expected": "cpp",
+        "spanstream": "cpp",
+        "stacktrace": "cpp",
+        "format": "cpp",
+        "stdfloat": "cpp"
     }
 }
