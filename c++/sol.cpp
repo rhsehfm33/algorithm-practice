@@ -2,7 +2,10 @@
 
 using namespace std;
 
-void solve(int _ti) {
+int _ti;
+
+void solve() {
+    
 }
 
 int main() {
@@ -10,8 +13,8 @@ int main() {
 
     int T;
     cin >> T;
-    for (int ti = 1; ti <= T; ++ti) {
-        solve(ti);
+    for (_ti = 1; _ti <= T; ++_ti) {
+        solve();
     }
 
     return 0;
