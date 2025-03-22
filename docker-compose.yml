@@ -7,7 +7,7 @@ services:
     stdin_open: true
     tty: true
     volumes:
-      - "./c++:/home"
+      - "./:/home"
 
   problem-solving-java:
     image: openjdk:11
