@@ -18,6 +18,7 @@ int main() {
     cin >> T;
     for (_ti = 1; _ti <= T; ++_ti) {
         solve();
+        cout << '\n';
     }
 
     return 0;
