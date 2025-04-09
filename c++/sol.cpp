@@ -1,7 +1,5 @@
 #include <bits/stdc++.h>
-
 using namespace std;
-
 #define debug(x) cout << #x << " = " << x << "\n";
 #define vdebug(a) cout << #a << " = "; for(auto x: a) cout << x << " "; cout << "\n";
 
@@ -18,7 +16,6 @@ int main() {
     cin >> T;
     for (_ti = 1; _ti <= T; ++_ti) {
         solve();
-        cout << '\n';
     }
 
     return 0;
