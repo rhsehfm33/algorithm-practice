@@ -94,5 +94,25 @@
         "stacktrace": "cpp",
         "format": "cpp",
         "stdfloat": "cpp"
-    }
+    },
+    "workbench.colorCustomizations": {
+        "activityBar.activeBackground": "#a1a2d2",
+        "activityBar.background": "#a1a2d2",
+        "activityBar.foreground": "#15202b",
+        "activityBar.inactiveForeground": "#15202b99",
+        "activityBarBadge.background": "#f5e9ea",
+        "activityBarBadge.foreground": "#15202b",
+        "commandCenter.border": "#15202b99",
+        "sash.hoverBorder": "#a1a2d2",
+        "statusBar.background": "#7f80c1",
+        "statusBar.foreground": "#15202b",
+        "statusBarItem.hoverBackground": "#5d5eb0",
+        "statusBarItem.remoteBackground": "#7f80c1",
+        "statusBarItem.remoteForeground": "#15202b",
+        "titleBar.activeBackground": "#7f80c1",
+        "titleBar.activeForeground": "#15202b",
+        "titleBar.inactiveBackground": "#7f80c199",
+        "titleBar.inactiveForeground": "#15202b99"
+    },
+    "peacock.remoteColor": "#7f80c1"
 }
