@@ -5,7 +5,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "g++ - Build and debug active file",
+            "name": "debug cpp for problem-solving",
             "type": "cppdbg",
             "request": "launch",
             "program": "${fileDirname}/${fileBasenameNoExtension}",
@@ -22,7 +22,7 @@
                     "ignoreFailures": true
                 }
             ],
-            "preLaunchTask": "C/C++: g++ build active file",
+            "preLaunchTask": "cpp build for ps",
             "miDebuggerPath": "/usr/bin/gdb"
         }
     ]
