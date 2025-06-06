@@ -4,6 +4,8 @@ cd /home || exit 1
 
 commit_made=false
 
+git reset
+
 while read -r file; do
     if [[ "$file" =~ c\+\+/codeforces/([0-9]+)/([a-z]+)/sol\.cpp ]]; then
         contest_id="${BASH_REMATCH[1]}"
@@ -21,7 +23,7 @@ done < <(git ls-files --others --exclude-standard)
 
 if [ "$commit_made" = true ]; then
     echo "commit 완료, push 진행할게"
-    git push origin master
+    git push -f origin master
 else
     echo "커밋할 파일 없음."
 fi
