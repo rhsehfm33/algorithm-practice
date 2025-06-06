@@ -1,0 +1,11 @@
+Extensions installed on Container problem-solving-cpp (cpp):
+esbenp.prettier-vscode
+Gxl.git-graph-3
+ms-python.debugpy
+ms-python.python
+ms-python.vscode-pylance
+ms-vscode.cmake-tools
+ms-vscode.cpptools
+ms-vscode.cpptools-extension-pack
+ms-vscode.cpptools-themes
+twxs.cmake

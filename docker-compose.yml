@@ -1,7 +1,10 @@
 version: "3"
 services:
   problem-solving-cpp:
-    image: gcc:latest
+    build:
+      context: ./c++
+      dockerfile: Dockerfile.cpp
+    image: problem-solving-cpp
     container_name: cpp
     working_dir: /home
     stdin_open: true
