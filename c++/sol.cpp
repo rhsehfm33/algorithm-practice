@@ -1,7 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-#define debug(x) cout << #x << " = " << x << "\n";
-#define vdebug(a) cout << #a << " = "; for(auto x: a) cout << x << " "; cout << "\n";
 
 int _ti;
 
