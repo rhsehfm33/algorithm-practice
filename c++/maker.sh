@@ -1,6 +1,6 @@
 #!/bin/bash
 
-BASE_DIR="/home/c++"
+BASE_DIR="${BASH_SOURCE%/*}"
 TEMPLATE="$BASE_DIR/sol.cpp"
 
 if [ -z "$2" ]; then

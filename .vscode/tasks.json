@@ -3,7 +3,7 @@
         {
             "type": "shell",
             "label": "cpp build for ps",
-            "command": "/usr/local/bin/g++",
+            "command": "/usr/bin/g++",
             "args": [
                 "-g",
                 "${file}",
