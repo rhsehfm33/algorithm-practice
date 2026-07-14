@@ -2,7 +2,7 @@ typedef long long ll;
 
 const ll MOD = 1e9 + 7;
 
-ll add(ll n1, ll n2) {
+ll addup(ll n1, ll n2) {
     return (n1 + n2) % MOD;
 }
 
@@ -10,15 +10,15 @@ ll mul(ll n1, ll n2) {
     return (n1 * n2) % MOD;
 }
 
-ll inv(ll num) {
-    ll result = 1;
-    ll exp = MOD - 2;
-    while (exp > 0) {
-        if (exp % 2 == 1) {
-            result = (result * num) % MOD;
+ll inv(ll n) {
+    ll r = 1;
+    ll e = MOD - 2;
+    while (e > 0) {
+        if (e % 2 == 1) {
+            r = (r * n) % MOD;
         }
-        num = (num * num) % MOD;
-        exp /= 2;
+        n = (n * n) % MOD;
+        e /= 2;
     }
-    return result;
+    return r;
 }
